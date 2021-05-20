@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.tcnk"
-        minSdkVersion 16
+        minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -44,11 +44,7 @@ dependencies {
 
 
     //바코드 스캐너
-    implementation 'com.journeyapps:zxing-android-embedded: 4.2.0'
-
-    //implementation 'com.google.firebase:firebase-ml-vision:24.0.3'
-    //implementation 'com.google.firebase:firebase-ml-vision-barcode-model:16.0.1'
-
+    implementation('com.journeyapps:zxing-android-embedded:4.2.0')
     //인증
     implementation 'com.google.firebase:firebase-auth'
     implementation 'com.google.android.gms:play-services-auth:19.0.0'

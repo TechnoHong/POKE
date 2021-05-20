@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.poke">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
+    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:hardwareAccelerated="true"
         android:theme="@style/Theme.Poke">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -32,14 +34,8 @@
         </activity>
         <activity android:name=".CheckAllergyActivity">
         </activity>
-<<<<<<< HEAD
         <activity android:name=".preferenceActivity">
         </activity>
-        <activity android:name=".dietActivity">
-        </activity>
-=======
-
->>>>>>> parent of eabf485 (Poke)
     </application>
 
 </manifest>

@@ -43,7 +43,8 @@
         android:id="@+id/BarcodeScanButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="바코드스캔" />
+        android:text="바코드스캔"
+        android:onClick="scanBarcode"/>
 
 </LinearLayout>
 

@@ -44,7 +44,15 @@ dependencies {
 
 
     //바코드 스캐너
+<<<<<<< Updated upstream
     implementation('com.journeyapps:zxing-android-embedded:4.2.0')
+=======
+    implementation 'com.journeyapps:zxing-android-embedded:4.2.0'
+
+    //implementation 'com.google.firebase:firebase-ml-vision:24.0.3'
+    //implementation 'com.google.firebase:firebase-ml-vision-barcode-model:16.0.1'
+
+>>>>>>> Stashed changes
     //인증
     implementation 'com.google.firebase:firebase-auth'
     implementation 'com.google.android.gms:play-services-auth:19.0.0'

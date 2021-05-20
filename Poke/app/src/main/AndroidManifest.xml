@@ -34,6 +34,8 @@
         </activity>
         <activity android:name=".preferenceActivity">
         </activity>
+        <activity android:name=".BarcodeScanAcivity">
+        </activity>
     </application>
 
 </manifest>

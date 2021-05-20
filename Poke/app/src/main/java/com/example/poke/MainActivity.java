@@ -70,6 +70,10 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.myInfoButton:
                     myStartActivity(MyInfoActivity.class);
+                    break;
+                case R.id.BarcodeScanButton:
+                    myStartActivity(BarcodeScanActivity.class);
+                    break;
             }
         }
     };
